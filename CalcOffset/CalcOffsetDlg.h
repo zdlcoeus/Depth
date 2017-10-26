@@ -30,6 +30,8 @@ private:
 	Mat templImg; //模板图
 	Mat resultImg;//结果图
 
+	Mat CalDiffMap(const Mat& objImg, const Mat& refImg); //计算偏差
+
 protected:
 	HICON m_hIcon;
 
